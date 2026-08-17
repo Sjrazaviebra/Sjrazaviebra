@@ -1,4 +1,7 @@
-## Javad Razavi — *The Solution Maker*
+<!-- ⚠️ Le logo est INLINE, pas flotte. Un element flotte sort du flux : la bordure que GitHub
+     dessine sous un h1/h2 s etend alors sur toute la largeur et le traverse (bug corrige sur
+     le-cabinet). Inline, il reste dans la ligne et la bordure passe DESSOUS. -->
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/jr-dark.png"><img src="assets/jr-light.png" width="38" alt="JR"></picture> Javad Razavi — *The Solution Maker*
 
 Software & Data Engineer. I build tools for a single situation: **the moment where being confidently
 wrong costs more than knowing nothing.** Trading risk, French administrative rules, strategy
@@ -30,7 +33,7 @@ Exports bars to CSV *and shows what is really inside them*: instrument passport,
 **[HorizonProbe](https://www.mql5.com/en/market/product/189520)** · [source](https://github.com/Sjrazaviebra/HorizonProbe)<br>
 Is your holding time profitable **by construction**? The toll is fixed, the move grows as the square root of time — this measures where they cross.
 
-**[ProSessionBox](https://github.com/Sjrazaviebra/ProSessionBox)**<br>
+**[ProSessionBox](https://www.mql5.com/en/market/product/175653)** · [source](https://github.com/Sjrazaviebra/ProSessionBox)<br>
 Daily box and multi-session tracker, DST-aware, with session high/low, overlap and alerts.
 
 ### 🔬 Quant research
