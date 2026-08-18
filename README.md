@@ -5,7 +5,7 @@
      ⚠️ Longueur de la ligne FIXE, calee sur la largeur de la colonne du profil. -->
 ### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/jr-dark.png"><img src="assets/jr-light.png" align="left" width="112" alt=""></picture> The Solution Maker
 
-───────────────────────────────────────────<br>
+────────────────────────────────────────────────────────────────────<br>
 **Software & Data Engineer — Python, data, and trading systems.**<br>
 Tools for the moment where being confidently wrong costs more than knowing nothing.
 
