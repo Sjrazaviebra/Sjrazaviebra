@@ -1,14 +1,20 @@
-<!-- ⚠️ Le logo est INLINE, pas flotte. Un element flotte sort du flux : la bordure que GitHub
-     dessine sous un h1/h2 s etend alors sur toute la largeur et le traverse (bug corrige sur
-     le-cabinet). Inline, il reste dans la ligne et la bordure passe DESSOUS. -->
-## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/jr-dark.png"><img src="assets/jr-light.png" width="38" alt="JR"></picture> Javad Razavi — *The Solution Maker*
+<!-- ⚠️ EN-TETE : meme recette que le-cabinet. Le logo est FLOTTE, le titre est en ###
+     (GitHub dessine sous un h1/h2 une bordure qui prend TOUTE la largeur et traverserait un
+     flottant), et la ligne est DESSINEE EN TEXTE parce qu un <hr> est un bloc et retraverserait
+     le logo lui aussi. Seul le TEXTE respecte un flottant : il s ecoule dans la colonne restante.
+     ⚠️ Longueur de la ligne FIXE, calee sur la largeur de la colonne du profil. -->
+### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/jr-dark.png"><img src="assets/jr-light.png" align="left" width="112" alt=""></picture> The Solution Maker
 
-Software & Data Engineer. I build tools for a single situation: **the moment where being confidently
-wrong costs more than knowing nothing.** Trading risk, French administrative rules, strategy
-validation — three domains where a plausible answer is the actual danger.
+───────────────────────────────────────────<br>
+**Software & Data Engineer — Python, data, and trading systems.**<br>
+Tools for the moment where being confidently wrong costs more than knowing nothing.
 
-So the tools are built to refuse. A backtest harness that kills its own edges. A skill set that will
-not quote a figure it cannot date. A risk dashboard that watches and never trades.
+<br clear="left">
+
+Trading risk, French administrative rules, strategy validation — three domains where a plausible
+answer is the actual danger. So the tools are built to refuse. A backtest harness that kills its own
+edges. A skill set that will not quote a figure it cannot date. A risk dashboard that watches and
+never trades.
 
 🌐 [javadrazavi.fr](https://www.javadrazavi.fr) · 💼 [LinkedIn](https://www.linkedin.com/in/javad-razavi/) · 🛒 [MQL5 Market](https://www.mql5.com/en/users/monsieurseraj/seller)
 
@@ -52,5 +58,6 @@ Every repository here is an attempt to make a tool say *"I don't know"* out loud
 
 🐍 Python · MQL5 · TypeScript / React · Rust (Tauri) · SQL · ELK · Docker · CI/CD
 
-📬 Open to remote **Python / Data Engineering** work — reach me on
+📬 **Building something in Python or data?** I am listening — collaboration, tooling, or a
+system that has to be *right* before it is fast. Tell me about it on
 [LinkedIn](https://www.linkedin.com/in/javad-razavi/).
